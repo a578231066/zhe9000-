@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>卖家登录</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/sellersLogin.css" type="text/css">
+</head>
+<body>
+<!--header-->
+<div id="header">
+	<div class="area">
+		<a href="#">
+			<div class="logo"></div>
+		</a>
+	</div>
+</div>
+<!--header end-->
+<!--main-->
+<div id="main">
+	<div class="article fr">
+		<h1>
+			<label class="fl">卖家登录后台</label>
+			<span>
+				<span>
+					第一次使用？
+					<a href="#">注册</a>
+				</span>
+			</span>
+		</h1>
+		<div class="clear"></div>
+		<form>
+			<ul>
+				<li>
+					<label>用户名：</label>
+					<input type="text" data-placeholder="请输入用户名" placeholder="请输入用户名或手机号" class="user text" required="required" oninvalid="setCustomValidity('warning')" oninput="setCustomValidity('')" maxlength="11">
+					<span>请输入用户名</span>
+				</li>
+				<li>
+					<label>密码：</label>
+					<input type="password" data-placeholder="6-24位，字母、数字、符号，区分大小写" class="passW text" required="required" oninvalid="setCustomValidity('warning')" oninput="setCustomValidity('')" maxlength="24">
+					<span>6-24位，字母、数字、符号，区分大小写</span>
+				</li>
+				<li>
+					<div id="drag">
+								
+					</div>
+				</li>
+				<li>
+					<button type="submit" class="btnRed">
+						立即注册
+					</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<div class="bannerImg fl">
+		<div>
+			
+		</div>
+	</div>
+</div>
+<!--main end-->
+<!--footer-->
+<div id="footer">
+	<div class="foot">	
+  		© 2011-2016 会员买 – 大连金硕科技有限公司 旗下购物商城 - 辽ICP备15004340号 <br/>
+
+  	</div>
+</div>
+<!--footer end-->
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/loginYanZheng.js"></script>
+<script src="js/sellersLogin.js"></script>
+<script type="text/javascript">
+$('#drag').drag();
+</script>
+</body>
+</html>

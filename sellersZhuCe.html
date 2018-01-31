@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/sellersZhuCe.css" type="text/css">
+</head>
+<body>
+<!--header-->
+<div id="header">
+	<div class="area">
+		<a href="#">
+			<div class="logo"></div>
+		</a>
+	</div>
+</div>
+<!--header end-->
+
+<!--main-->
+<div id="main">
+	<div class="article fr">
+		<h1>
+			<label class="fl">注册折800卖家</label>
+			<span>
+				<span>
+					已有账号？
+					<a href="#">登录</a>
+				</span>
+			</span>
+		</h1>
+		<div class="clear"></div>
+		<form method="post">
+			<ul>
+				<li>
+					<label>手机号：</label>
+					<input type="text" data-placeholder="请输入您常用的手机号" class="mobile text" required="required" oninvalid="setCustomValidity('warning')" oninput="setCustomValidity('')" maxlength="11" />
+					<span></span>
+				</li>
+				<li>
+					<label>设置密码：</label>
+					<input type="password" data-placeholder="6-24位，字母、数字、符号，区分大小写" class="passW text" required="required" oninvalid="setCustomValidity('warning')" oninput="setCustomValidity('')" maxlength="24" onpaste="return false" ondragenter="return false"/>
+					<span style="display:none;">6-24位, 字母、数字、符号, 区分大小写</span>
+					<p class="safety">
+						<span>弱</span>
+						<span>中</span>
+						<span>强</span>
+						<div class="clear"></div>
+					</p>
+				</li>
+				<li>
+					<label>确认密码：</label>
+					<input type="password" data-placeholder="请再次输入您的密码" class="text rPassW" required="required" oninvalid="setCustomValidity('warning')" oninput="setCustomValidity('')" maxlength="24">
+					<span></span>
+				</li>
+				<li>
+					<label>手机验证码：</label>
+					<input type="text" class="txt text" required="required" >
+					<a href="javascript:void(0)" class="get">获取验证码</a>
+					<span></span>
+				</li>
+				<li>
+					<input type="checkbox" class="checkbox" required="required">
+					我已经认真阅读并同意折800的<a href="#" class="sellers"><<卖家注册协议>></a>
+					<span></span>
+				</li>
+				<li>
+					<button type="submit" class="btnRed">
+						提&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;交
+					</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<div class="bannerImg fl">
+		<div>
+			
+		</div>
+	</div>
+</div>
+<!--main end-->
+
+<!--footer-->
+<div id="footer">
+	<div class="foot">	
+  		© 2011-2016 会员买 – 大连金硕科技有限公司 旗下购物商城 - 辽ICP备15004340号 <br/>
+  	</div>
+</div>
+<!--footer end-->
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/yanzheng.js"></script>
+</body>
+</html>

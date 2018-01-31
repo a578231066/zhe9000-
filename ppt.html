@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>限时折扣</title>
+	<link rel="stylesheet" href="css/aos.css" type="text/css">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/maiHeadAndFoot.css" type="text/css">
+	<link rel="stylesheet" href="css/xszkCss.css" type="text/css">
+</head>
+<body>
+
+<!--header-->
+<div id="header">
+	<div class="top">
+		<div class="fl l">
+			<a href="#">淘宝活动报名入口</a>
+			您好,欢迎来到
+			<span><a href="#">折9000</a></span>
+			[ 登录 ] [ 注册 ]
+		</div>
+		<div class="fl r">
+			<dl class="fr">
+				<dt><a href="#"><img src="http://www.zhe9000.com/static/zhe_image/login_qq.png"/>QQ登录</a></dt>
+				<dd><a href="#">我的收藏</a> <em></em></dd>
+				<dd><a href="#">客户服务</a> <em></em></dd>
+				<dd><a href="#">商家报名</a> <em></em></dd>
+			</dl>
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<!--header-->
+
+<!--nav-->
+<div id="nav">
+	<div class="navMain">
+		<a href="#"><img src="http://baoming.zhe9000.com/data/upload/site/58b6452e2da01.png"/></a>
+		<ul class="fr">
+			<li class="one"><a href="#">活动报名</a></li>
+			<li class="two"><a href="#">活动管理</a></li>
+			<li class="three"><a href="#">特卖管理</a></li>
+			<li class="four"><a href="#">规则中心</a></li>
+		</ul>
+	</div>
+</div>
+<!--nav end-->
+
+<!--main-->
+<div id="main">
+	<div class="title">
+		<span class="fl" aos="fade-down">报名流程</span>
+		<ul>
+			<li aos="flip-left" aos-delay="500"><i>1.</i> 选择活动>>></li>
+			<li aos="flip-left" aos-delay="1000"><i>2.</i> 提交报名>>></li>
+			<li aos="flip-left" aos-delay="1500"><i>3.</i> 活动付款>>></li>
+			<li aos="zoom-in" aos-delay="2000"><i>4.</i> 排期上线</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="grab">
+		<p><span>品牌团</span>报名:</p>
+		<div>
+			<p>
+				<span>报名商品网址:</span>
+				<input type="text" class="in" required="required" placeholder="将商品网址复制到此处！" />
+				<input type="button" value="抓取商品信息" class="zb" />
+			</p>
+			<ul>
+				<li>什么是商品网址？</li>
+				<li>如果您是B店，提供的商品格式为：https://detail.tmall.com/item.htm?id=41460983855</li>
+				<li>如果您是C店，提供的商品格式为：https://item.taobao.com/item.htm?id=540180726199</li>
+			</ul>
+		</div>
+	</div>
+	<form method="post">
+		<div class="switch">
+		<div class="switchT">
+			<span>商品名称:</span>
+			<input type="text" class="in"/>
+		</div>
+		<p class="ask">标题内不允许出现包邮、折扣信息和新品等字样，不能包含（#，%等特殊字符），要求10-18字。如：日系加厚带帽牛角扣呢子大衣</p>
+		<em>选择一张<i>右侧的图片</i>作为<i>主图</i>(300*300像素以上)：</em>
+		<dl id="beng">
+			<dd class="one"><a href="#beng"><img src="images/tihuan/zhu1.jpg"></a></dd>
+			<dd src="#beng"><a href="#beng"><img src="images/tihuan/zhu2.jpg"></a></dd>
+			<dd src="#beng"><a href="#beng"><img src="images/tihuan/zhu3.jpg"></a></dd>
+			<dd src="#beng"><a href="#beng"><img src="images/tihuan/zhu4.jpg"></a></dd>
+			<dd src="#beng"><a href="#beng"><img src="images/tihuan/zhu5.jpg"></a></dd>
+			<dt src="#beng"><img src="images/tihuan/zhu1.jpg"></dt>
+		</dl>
+		<div class="switchT">
+			<span>所属分类:</span>
+			<select name="" id="classify" >
+				<option value="0">--请选择分类--</option>
+				<option value="1">女装</option>
+				<option value="2">男装</option>
+				<option value="3">居家</option>
+				<option value="4">母婴</option>
+				<option value="5">配饰</option>
+				<option value="6">视频</option>
+				<option value="7">家电</option>
+				<option value="8">美妆</option>
+				<option value="9">文体</option>
+				<option value="10">箱包</option>
+				<option value="15">内衣</option>
+				<option value="23">鞋品</option>
+				<option value="24">家装</option>
+				<option value="27">生活</option>
+				<option value="28">车饰</option>
+				<option value="29">数码</option>
+			</select>
+			<p class="remind">请正确选择您报名的商品对应的分类</p>
+		</div>
+		<div class="switchT kC">
+			<span>商品库存:</span>
+			<input type="text" required="required"/>
+			<label>件</label>
+		</div>
+		<div class="switchT kC">
+			<span>商品原价:</span>
+			<input type="text" required="required"/>
+			<label>元</label>
+		</div>
+		<div class="switchT kC">
+			<span>活动价格:</span>
+			<input type="text"/>
+			<label>元</label>
+			<p>设置优惠券的商品，活动价格填写券后价格！</p>
+		</div>
+		<div class="switchT hdts">
+			<span class="days">选择活动天数:</span>
+			<select name="" id="">
+				<option value="5天首页推广/350元">5天首页推广/350元</option>
+				<option value="15天首页推广/1000元">15天首页推广/1000元</option>
+				<option value="30天首页推广/1800元">30天首页推广/1800元</option>
+			</select>
+			<p class="remind">注：报名后30分钟内未付款，系统自动退回！</p>
+		</div>
+		<div class="switchT down">
+			<span>优惠券金额：</span>
+			<input type="text"/>
+			<label>元</label>
+			<p>请填写准确的优惠券金额。<em>没有优惠券，可不填写</em></p>
+		</div>
+		<div class="switchT money">
+			<span>优惠券链接：</span>
+			<input type="text"/>
+			<p><em>没有优惠券，可不填写</em></p>
+		</div>
+		<div class="switchT down WW">
+			<span>店铺主旺旺：</span>
+			<input readonly="readonly" type="text"/>
+		</div>
+		<div class="switchT down">
+			<span>联系人 QQ：</span>
+			<input type="text" required="required"/>
+		</div>
+		<div class="switchT down">
+			<span>联系人手机：</span>
+			<input type="text" required="required"/>
+		</div>
+		<div class="switchT down end">
+			<span>联系人姓名：</span>
+			<input type="text" required="required"/>
+			<button type="submit" class="refer" />提交报名</button>
+			<img class="b2b" src="images/tihuan/b2b.png">
+		</div>
+	</form>
+</div>
+</div>
+<!--main end-->
+<div class="clear">
+	
+</div>
+<!--footer-->
+<div id="footer">
+	<div class="footMain">
+		<p>
+			<a href="#">首页</a>
+			| 
+			<a href="#">网站地图</a>
+		    | 
+		    <a href="#">折800天天特价</a>
+		    |
+		    <a href="#">折八百</a>
+		    |
+		    <a href="#">淘宝活动报名入口</a>
+		</p>
+	</div>
+	<div class="safety">
+		<ul>
+			<li><a><img src="http://www.zhe9000.com/static/zhe_image/footer_link_1.png" width="126" height="41" /></a></li>
+			<li><a><img src="http://www.zhe9000.com/static/zhe_image/footer_link_2.jpg" width="126" height="41" /></a></li>
+			<li><a><img src="http://www.zhe9000.com/static/zhe_image/footer_link_3.jpg" width="126" height="41" /></a></li>
+			<li><a><img src="http://www.zhe9000.com/static/zhe_image/footer_link_4.jpg" width="126" height="41" /></a></li>
+		</ul>
+	</div>
+	© 2011-2016 折9000 – 大连金硕科技有限公司 旗下购物商城 - 辽ICP备15004340号
+	<span>
+		<a href="#">
+			<img src="http://icon.cnzz.com/img/pic1.gif" alt="站长统计"/>
+		</a>
+	</span>
+</div>
+<!--footer end-->
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/aosChu.js"></script>
+<script src="js/xszk.js"></script>
+</body>
+</html>

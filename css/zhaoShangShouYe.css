@@ -1,0 +1,110 @@
+body{ color:#666; overflow:-Scroll;overflow-x:hidden }
+
+
+/*banner*/
+#banner{ min-width: 1200px; }
+#banner .box{width: 1900px; height: 300px; margin:0 auto ; position:relative;}
+#banner .box .box_img{width: 100%; height: 100%;}
+#banner .box .box_img ul li{ position:absolute; display: none;}
+#banner .box .box_img ul li a{ display: block; width: 100%; height: 100%;}
+#banner .box .box_img ul li img{width: 100%; height: 300px;}
+#banner .box .juZhong .box_tab{ position: absolute; left:6%; bottom:20px;}
+#banner .box .juZhong .box_tab a{ padding:7px 7px; color: #fff; font-weight:bold; background:rgba(255,255,255,.8); text-transform: lowercase;shadow:1px 0px 1px #333; border-radius:30px; margin-right:10px; display: inline-block; text-align: center; border:1px solid #999;}
+#banner .box .juZhong .box_tab a.active{background:#f00;}
+#banner .box .juZhong .loginShape{ height: 240px; left: 36%; margin-left: 314px; position: absolute; top: 30px; width: 280px; background: url(../images/tihuan/login_bg.png); font-size: 14px; }
+#banner .box .juZhong .loginShape p{ width: 280px; height: 24px; text-align: center; margin-top: 44px; margin-bottom: 10px; }
+#banner .box .juZhong .loginShape a{ display: block; width: 150px; height: 40px; margin: 8px auto; line-height: 40px; text-align: center; }
+#banner .box .juZhong .loginShape a.acc{ background: #ec1611; color: #fff; }
+#banner .box .juZhong .loginShape a.login{ border: 1px solid #ec1611; color: #ec1611; background: #fff; }
+#banner .rightPic{ position: relative; left: 20px; }
+#banner .rightPic ul li{ margin-top: 14px; }
+
+
+/*main*/
+#main{ width: 1200px; margin: 0 auto; }
+#main .cooperationBox{ margin-top: 40px;}
+#main .cooperationBox .topImg{ background: url(../images/tihuan/tmscrz.jpg) no-repeat; display:block; height: 106px; width: 1200px; }
+#main .cooperationBox .tipBox{ margin-top: 30px; line-height: 30px; color: #333; font-size: 14px; }
+#main .cooperationBox .tipBox p{ text-align: center; }
+#main .cooperationBox ul{ width: 1200px; height: 180px; margin: 0 auto; margin-top: 40px; margin-bottom: 40px;  -webkit-margin-start: 0px;  -webkit-padding-start: 124px; }
+#main .cooperationBox ul li{ perspective: 1000px; transform-style: preserve-3d; position: relative; transition: 0.6s; }
+#main .cooperationBox ul li:hover>div{  transform: rotateY(180deg);  }
+#main .cooperationBox ul li.fliBoxTwo{ margin-left: 30px; }
+#main .cooperationBox ul li>div{ box-sizing: border-box; height: 180px; width: 164px; text-align: center; position: relative; transition: .6s; transform-style: preserve-3d; backface-visibility: hidden;}
+#main .cooperationBox ul li>div div.one{ z-index: 2; font-size: 15px; color: #ff7474; position: absolute; top: 0; left: 0; backface-visibility: hidden; border: 1px solid #e5e5e5; border-radius: 6px; box-sizing: border-box; height: 180px; width: 164px; padding-top: 33px; padding-bottom: 40px; text-align: center;}
+#main .cooperationBox ul li>div div.one h4{ font-size: 15px; color: #ff7474; margin-top: 33px; }
+#main .cooperationBox ul li>div div.two{ transform: rotateY(-180deg); color: #666; font-size: 12px; position: absolute; top: 0; left: 0; backface-visibility: hidden; border: 1px solid #e5e5e5; border-radius: 6px; box-sizing: border-box; height: 180px; width: 164px; padding-top: 10px; padding-bottom: 20px; text-align: center; }
+#main .cooperationBox ul li>div div.two p{ text-align: left; padding-left: 8px; padding-right: 8px; padding-top: 8px; line-height: 22px; }
+#main .cooperationBox .bottomText{ width: 1160px; line-height: 25px; padding-left: 20px; padding-right: 20px; }
+#main .cooperationBox .bottomText a{ color: #0099CC; }
+#main .cooperationBox .bottomText a:hover{ text-decoration: underline; }
+#main .flow{ width: 1200px; margin: 0 auto; }
+#main .flow .enter{ padding-top: 40px; margin-bottom: 46px; }
+#main .flow .enter .enterImg{ background: url(../images/tihuan/tmscrzlc.jpg) no-repeat; display: block; height: 30px; width: 1200px; }
+#main .flow .enter>p{ background: url(../images/tihuan/step.jpg) no-repeat; display: block; height: 144px; width: 1200px; }
+#main .flow .enter ul{ width: 100%; display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -moz-box-align: top; -webkit-box-align: top; -o-box-align: top; box-align: top; margin: 0 auto; margin-top: 24px; margin-bottom: 46px; justify-content: center; border-bottom: 1px dashed #ff7474; padding-bottom: 70px; }
+#main .flow .enter ul .step{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 16px; color: #000; line-height: 32px; font-size: 16px; color: #000; line-height: 32px; display: list-item; text-align: -webkit-match-parent  }
+#main .flow .enter ul .step a:hover{ color: #C00; text-decoration: underline; }
+#main .flow .enter ul .step1{ margin-left: 100px; width: 200px; }
+#main .flow .enter ul .step1 a{ margin-left: 30px; }
+#main .flow .enter ul .step2{ margin-left: 100px; width: 135px; }
+#main .flow .enter ul .step3{ margin-left: 100px; width: 200px; }
+#main .flow .enter ul .step3 a{ margin-left: 24px; }
+#main .flow .enter ul .step4{ margin-right: 100px; margin-left: 100px; width: 175px text-align: left; }
+#main .flow .enter ul .step a{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; background: #ff7474 none repeat scroll 0 0; border-radius: 3px; box-shadow: 1px 1px #ff7474; color: #fff; display: inline-block; font-size: 14px; height: 28px; width: 112px; text-align: center; }
+#main .cooperationBoxTwo{ margin-top: 40px;}
+#main .cooperationBoxTwo .topImg{ background: url(../images/tihuan/tbtmhz1.jpg) no-repeat; display:block; height: 25px; width: 1200px; }
+#main .cooperationBoxTwo .tipBox{ margin-top: 30px; line-height: 30px; color: #333; font-size: 14px; }
+#main .cooperationBoxTwo .tipBox p{ text-align: center; }
+#main .cooperationBoxTwo ul{ width: 1200px; height: 180px; margin: 0 auto; margin-top: 40px; margin-bottom: 40px;  -webkit-margin-start: 0px;  -webkit-padding-start: 124px; }
+#main .cooperationBoxTwo ul li{ perspective: 1000px; transform-style: preserve-3d; position: relative; transition: 0.6s; }
+#main .cooperationBoxTwo ul li:hover>div{  transform: rotateY(180deg);  }
+#main .cooperationBoxTwo ul li.fliBoxTwo{ margin-left: 30px; }
+#main .cooperationBoxTwo ul li>div{ box-sizing: border-box; height: 180px; width: 164px; text-align: center; position: relative; transition: .6s; transform-style: preserve-3d; backface-visibility: hidden;}
+#main .cooperationBoxTwo ul li>div div.one{ z-index: 2; font-size: 15px; color: #ff7474; position: absolute; top: 0; left: 0; backface-visibility: hidden; border: 1px solid #e5e5e5; border-radius: 6px; box-sizing: border-box; height: 180px; width: 164px; padding-top: 33px; padding-bottom: 40px; text-align: center;}
+#main .cooperationBoxTwo ul li>div div.one h4{ font-size: 15px; color: #ff7474; margin-top: 33px; }
+#main .cooperationBoxTwo ul li>div div.two{ transform: rotateY(-180deg); color: #666; font-size: 12px; position: absolute; top: 0; left: 0; backface-visibility: hidden; border: 1px solid #e5e5e5; border-radius: 6px; box-sizing: border-box; height: 180px; width: 164px; padding-top: 10px; padding-bottom: 20px; text-align: center; }
+#main .cooperationBoxTwo ul li>div div.two p{ text-align: left; padding-left: 8px; padding-right: 8px; padding-top: 8px; line-height: 22px; }
+
+#main .flowTwo{ width: 1200px; margin: 0 auto; }
+#main .flowTwo .enter{ padding-top: 40px; margin-bottom: 46px; }
+#main .flowTwo .enter .enterImg{ background: url(../images/tihuan/tmscrzlc.jpg) no-repeat; display: block; height: 30px; width: 1200px; }
+#main .flowTwo .enter>p{ background: url(../images/tihuan/step.jpg) no-repeat; display: block; height: 144px; width: 1200px; }
+#main .flowTwo .enter ul{ width: 100%; display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -moz-box-align: top; -webkit-box-align: top; -o-box-align: top; box-align: top; margin: 0 auto; margin-top: 24px; margin-bottom: 46px; justify-content: center; padding-bottom: 70px; }
+#main .flowTwo .enter ul .step{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 16px; color: #000; line-height: 32px; font-size: 16px; color: #000; line-height: 32px; display: list-item; text-align: -webkit-match-parent  }
+#main .flowTwo .enter ul .step a:hover{ color: #C00; text-decoration: underline; }
+#main .flowTwo .enter ul .step1{ margin-left: 100px; width: 200px; }
+#main .flowTwo .enter ul .step1 a{ margin-left: 30px; }
+#main .flowTwo .enter ul .step2{ margin-left: 100px; width: 135px; }
+#main .flowTwo .enter ul .step3{ margin-left: 100px; width: 200px; }
+#main .flowTwo .enter ul .step3 a{ margin-left: 24px; }
+#main .flowTwo .enter ul .step4{ margin-right: 100px; margin-left: 100px; width: 175px text-align: left; }
+#main .flowTwo .enter ul .step a{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; background: #ff7474 none repeat scroll 0 0; border-radius: 3px; box-shadow: 1px 1px #ff7474; color: #fff; display: inline-block; font-size: 14px; height: 28px; width: 112px; text-align: center; }
+#main .platform>div{ width: 1200px; height: 47px; margin: 0 auto; background: url(../images/tihuan/ptys.jpg) no-repeat; }
+#main .platform ul{ margin-top: 64px; padding-left: 116px; text-align: left; }
+#main .platform ul a li{ display: inline-block; height: 60px; margin-bottom: 48px; }
+#main .platform ul a li.item1{ width: 332px; }
+#main .platform ul a li.item1 .top{ background: url(../images/tihuan/user.png) no-repeat; }
+#main .platform ul a li.item2{ width: 365px; }
+#main .platform ul a li.item2 .top{ background: url(../images/tihuan/user.png) no-repeat; }
+#main .platform ul a li.item3{ width: 375px; }
+#main .platform ul a li.item3 .top{ background: url(../images/tihuan/user.png) no-repeat; }
+#main .platform ul a li.item4{ width: 332px; }
+#main .platform ul a li.item4 .top{ background: url(../images/tihuan/user.png) no-repeat; }
+#main .platform ul a li.item5{ width: 365px; }
+#main .platform ul a li.item5 .top{ background: url(../images/tihuan/user.png) no-repeat; }
+#main .platform ul a li.item6{ width: 375px; }
+#main .platform ul a li.item6 .top{ background: url(../images/tihuan/user.png) no-repeat; }
+#main .platform ul a li .top{ width: 60px; height: 60px; float: left; margin-right: 10px; display: inline-block; }
+#main .platform ul a li .top img{ width: 60px; height: 60px; }
+#main .platform ul a li .down{ line-height: 24px; margin-top: 5px; color: #666; }
+#main .platform ul a li .down span{ line-height: 24px; color: #333; display: block; font-weight: 700; text-align: left; }
+
+
+
+
+
+
+
+
+

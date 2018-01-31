@@ -1,0 +1,16 @@
+/*main*/
+#main .teMaiTitle{ background: url(../images/tihuan/tmschd.jpg) no-repeat; margin-top: 40px; margin-left: auto; margin-right: auto; width: 1200px; height: 47px; }
+#main>ul{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-top: 50px; padding-left: 95px; width: 1200px; overflow: hidden; text-align: left; margin: 0 auto; }
+#main>ul li{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; float: left; margin-bottom: 50px; margin-right: 70px; width: 471px; height: 356px; padding-top: 50px; padding-left: 36px; padding-right: 36px; }
+#main>ul li.bk{ background: url(../images/tihuan/bk.png) no-repeat; }
+#main>ul li.ppt{ background: url(../images/tihuan/ppzctm.png) no-repeat; }
+#main>ul li.zt{ background: url(../images/tihuan/zt.png) no-repeat; }
+#main>ul li.pt{ background: url(../images/tihuan/pt.png) no-repeat; }
+#main>ul li.xsq{ background: url(../images/tihuan/xsq.png) no-repeat; }
+#main>ul li.dphd{ background: url(../images/tihuan/dphd.png) no-repeat; }
+#main>ul li.dpt{ background: url(../images/tihuan/dpt.png) no-repeat; }
+#main>ul li header{ font-size: 24px; color: #000; margin-bottom: 50px; text-align: center; }
+#main>ul li div{ color: #333; font-size: 14px; line-height: 30px; }
+#main div.tbtmhd{ background: url(../images/tihuan/tbtmhd.jpg) no-repeat; width: 1200px; height: 47px; margin: 0 auto; }
+
+

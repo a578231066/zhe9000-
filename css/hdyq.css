@@ -1,0 +1,37 @@
+/*main*/
+#main{ background: #f2f2f2; }
+#main .hdyq{ margin: 20px auto; overflow: hidden; width: 980px; background: #fff; border: 1px solid #ddd; }
+#main .hdyq .textcls{ background: #fff; font: 14px/24px "microsoft yahei"; }
+#main .hdyq .textcls h2{ text-align: center; font-size: 24px; font-weight: normal; color: #333; padding: 40px 0; }
+#main .hdyq .textcls div.split{ height: 9px; overflow: hidden; background: url(http://baoming.zhe9000.com/static/images/baoming/bg-x.png) repeat-x 0 -189px; }
+#main .hdyq .textcls div.content{ margin: 40px 0; padding: 0 60px; overflow: hidden; color: #666; }
+#main .hdyq .textcls div.content .tableOne{ text-align: center; border-left: #cccccc 1px solid; line-height: 24px; width: 100%; color: #666666; font-size: 12px; border-top: #cccccc 1px solid; }
+#main .hdyq .textcls div.content .tableOne thead{ display: table-header-group; vertical-align: middle; border-color: inherit; }
+#main .hdyq .textcls div.content .tableOne thead tr{ display: table-row; vertical-align: inherit; border-color: inherit; }
+#main .hdyq .textcls div.content .tableOne thead th{ border-bottom: #cccccc 1px solid; border-left: #cccccc 0px solid; padding-bottom: 5px; background-color: #f7f7f7; padding-left: 10px; padding-right: 10px; font-size: 14px; border-top: #cccccc 0px solid; border-right: #cccccc 1px solid; padding-top: 5px; text-align: center; font-weight: 400;}
+#main .hdyq .textcls div.content .tableOne tbody tr{ background: #fff }
+#main .hdyq .textcls div.content .tableOne tbody tr td{ border-bottom: #cccccc 1px solid; border-left: #cccccc 0px solid; padding-bottom: 5px; background-color: #fff; padding-left: 10px; padding-right: 10px; font-size: 14px; border-top: #cccccc 0px solid; font-weight: 400; border-right: #cccccc 1px solid; padding-top: 5px; }
+#main .hdyq .textcls div.content .tableOne tbody tr td.black{ background-color:#f8f4f1; }
+#main .hdyq .textcls div.content h2{ text-align: center; font-size: 24px; font-weight: normal; color: #333; padding: 40px 0; }
+#main .hdyq .textcls div.content .tableTwo{ border-bottom: #cccccc 0px solid; 
+    text-align: center; border-left: #cccccc 1px solid; line-height: 24px; width: 100%; color: #666666; font-size: 12px; border-top: #cccccc 1px solid;  margin-bottom: 24px;}
+#main .hdyq .textcls div.content .tableTwo tr td{     border-bottom: #cccccc 1px solid; border-left: #cccccc 0px solid; padding-bottom: 5px; background-color: #fff; padding-left: 10px; padding-right: 10px; font-size: 14px; border-top: #cccccc 0px solid; font-weight: 400; border-right: #cccccc 1px solid; padding-top: 5px; }
+#main .hdyq .textcls div.content .tableTwo tr td a{ color: #0099CC; }
+#main .hdyq .textcls div.content .tableTwo tbody tr td.hui{ background-color:#f8f4f1; }
+#main .hdyq .textcls div.content table tbody tr td.font{ font-weight: 800; color: #000; }
+#main .hdyq .textcls div.content>p{ padding: 0px; margin-top: 0px; margin-bottom: 0px; font-family: 微软雅黑; line-height: 24px; white-space: normal; background-color: #FFFFFF; font-size: 12px; color: #000; }
+#main .hdyq .textcls div.content>p.marginTop{ margin-top: 20px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

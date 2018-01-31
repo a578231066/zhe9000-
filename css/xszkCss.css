@@ -1,0 +1,76 @@
+body{ font-family: "微软雅黑"; }
+input{ box-sizing: border-box; border-radius: 2px; border:1px solid #ccc; padding: 0 10px; }
+/*main*/
+#main{ width: 1000px; margin: auto; border-left:1px solid #FAAD90; border-right:1px solid #FAAD90; border-bottom: 1px solid #FAAD90; margin-top: 20px; margin-bottom: 70px; }
+#main form{ display: none; }
+#main .title{ width: 1000px; height: 100px; background: #FF7474; margin: 0 auto; }
+#main .title span{ display: block; height: 100%; line-height: 100px; font-size: 28px; font-weight: bold; color: #fff; margin-left: 4%;}
+#main .title ul{ margin-left: 20px; height: 100px; }
+#main .title ul li{ float: left; height: 100px; line-height: 100px; color: #fff; font-size: 20px; padding: 0 3%; }
+#main .title ul li i{ font-weight: bold; font-style: italic; }
+#main .grab{ width: 1000px; margin: 0 auto; background: #fff; border-bottom: 1px dashed #ccc; padding-bottom: 40px; }
+#main .grab>p{ font-size: 28px; margin:40px 0 0 40px; }
+#main .grab>p span{ color:#ff7474; }
+#main .grab div{ width: 1000px; margin: 0 auto; }
+#main .grab div ul{ margin:10px 0 0 132px;  }
+#main .grab div p{ width: 1000px; height: 38px; margin:40px 0 20px 4%; font-size: 14px;  }
+#main .grab div p input{ height: 38px; margin: 0; }
+#main .grab div p input.in{ border:1px solid #ccc; width: 616px; }
+#main .grab div p input.zb{ width: 120px; margin-left: 32px; background: -moz-linear-gradient(top, #FF7474 30%, #FFAEAE 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FF7474), color-stop(100%,#FFAEAE)); background: -webkit-linear-gradient(top, #FF7474 30%,#FFAEAE 100%); background: -o-linear-gradient(top, #FF7474 30%,#FFAEAE 100%); background: -ms-linear-gradient(top, #FF7474 30%,#FFAEAE 100%); background: linear-gradient(to bottom, #FF7474 30%,#FFAEAE 100%); border-radius: 4px; border: none; text-shadow: 1px 1px #ff5300; color: #fff; cursor: pointer; transition:0.6s; }
+#main div p input.zb:hover{ opacity: 0.8; transition:0.6s; }
+#main .switch{ width: 1000px; margin: 0 auto; padding-top: 20px; position: relative;}
+#main .switch .hdts{ margin-left: 1% !important; border-bottom: 1px dashed #ccc; }
+#main .switch .hdts p{ margin-left: 12% !important; }
+#main .switch .switchT{ width: 1000px; margin:20px 0 0 4%; font-size: 14px; }
+#main .switch .switchT .days{ color: #EC1611; }
+#main .switch .switchT p.remind{ margin:10px 0 20px 90px; }
+#main .switch .switchT select{ width: 220px; height: 38px; }
+#main .switch .switchT span{ margin-left: 28px; }
+#main .switch .switchT input{ height: 38px; margin: 0; }
+#main .switch .switchT input.in{ border:1px solid #ccc; width: 616px; }
+#main .switch p.ask{ margin: 12px 0 30px 130px; }
+#main .switch dl{ position: absolute; left: 480px; top: 120px; }
+#main .switch dl dt{ width: 350px; height: 350px; }
+#main .switch dl dt img{ width: 350px; height: 350px; }
+#main .switch dl dd{ width: 68px; height: 68px; float: left; margin-top:20px; border: 1px solid #ccc; }
+#main .switch dl dd.one{ border:1px solid #EC1611; }
+#main .switch dl dd img{ width: 68px; height: 68px; }
+#main .switch em{ margin-left: 68px; font-size: 14px; }
+#main .switch em i { font-weight: 500; color: #EC1611; }
+#main .switch .kC input{ width: 100px; }
+#main .switch .kC label{ color: #aaa; }
+#main .switch .kC p{ margin: 20px 0 0 90px; color: #EC1611; }
+#main .switch .taoKe{ margin-left: -0.1%; }
+#main .switch .taoKe input{ width: 616px; }
+#main .switch .taoKe p{ margin: 20px 0 0 63px; }
+#main .switch .taoKe p em{ color: #EC1611; }
+#main .switch .down input{ width: 220px; }
+#main .switch .down span{ margin-left: 0.1%; }
+#main .switch .down p{ margin: 20px 0 0 90px; }
+#main .switch .down p em{ color: #EC1611; margin-left: 0; }
+#main .switch .money { padding-bottom: 76px;}
+#main .switch .money input{ width: 616px; }
+#main .switch .money span{ margin-left: 0.1%; }
+#main .switch .money p{ margin: 20px 0 0 20px; color: #EC1611; }
+#main .switch .WW input{ background: #f4f4f4; color: #999; }
+#main .switch button{ width: 140px; height: 40px; margin-left: 32px; background: -moz-linear-gradient(top, #FF7474 30%, #FFAEAE 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FF7474), color-stop(100%,#FFAEAE)); background: -webkit-linear-gradient(top, #FF7474 30%,#FFAEAE 100%); background: -o-linear-gradient(top, #FF7474 30%,#FFAEAE 100%); background: -ms-linear-gradient(top, #FF7474 30%,#FFAEAE 100%); background: linear-gradient(to bottom, #FF7474 30%,#FFAEAE 100%); border-radius: 4px; border: none; text-shadow: 1px 1px #ff5300; color: #fff; cursor: pointer; font-size: 20px; transition:0.6s; display: block; margin: 30px 0 0 89px;}
+#main .switch button:hover{ box-shadow: 3px 2px 2px #ccc; font-size: 22px; transition:0.6s }
+#main .end{ padding-bottom: 40px; position: relative; }
+#main .end img{ width: 400px; height: 300px; position: absolute;right: 50px; top: -210px; opacity: 0.5; display: none;}
+.forbidden{ font-size: 20px!important; background: -webkit-linear-gradient(top, #ccc 30%,#eee 100%)!important; background: -o-linear-gradient(top, #ccc 30%,#eee 100%)!important; background: -ms-linear-gradient(top, #ccc 30%,#eee 100%)!important; background: linear-gradient(to bottom, #ccc 30%,#eee 100%)!important; text-shadow:0px 0px #fff!important; }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

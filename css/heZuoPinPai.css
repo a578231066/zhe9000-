@@ -1,0 +1,21 @@
+#main .youWin{ width: 1200px; height: 100px; background-image: url(../images/tihuan/youWin.jpg); margin: 0 auto; margin-top: 40px; }
+#main .storys{ width: 1250px; margin: 0 auto; margin-top: 30px; font-size: 12px; }
+#main .storys div.success{ width: 580px; height: 110px; float: left; margin-top: 20px; margin-left: 20px; padding: 10px; font-size: 12px; text-align: left; }
+#main .storys div.success img{ height: 110px; width: 176px; margin-right: 10px; float: left; }
+#main .hot{ width: 1200px; height: 100px; background-image: url(../images/tihuan/hotBrands.jpg); margin: 0 auto; margin-top: 40px; }
+#main .hotBrand{width: 1200px; margin: 0 auto; position: relative; margin-bottom: 380px; }
+#main .hotBrand .brandName{ width: 1200px; height: 16px; margin: 0 auto; margin-top: 20px; }
+#main .hotBrand .brandName li{ float: left; margin: 0 21px; }
+#main .hotBrand .brandImages{ width: 1200px; margin: 0 auto; margin-top: 2px; position: absolute; }
+#main .hotBrand .brandImages li{ display: none; position: absolute; }
+#main .hotBrand .brandImages li.show{ display: block; }
+#main .hotBrand .brandImages li img{ margin-left: 10px; margin-top: 10px; width: 148px; height: 73px; float: left; border: 1px solid #e5e5e5; }
+
+
+
+
+
+
+
+
+

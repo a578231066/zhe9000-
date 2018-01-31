@@ -1,0 +1,49 @@
+body{ background: #F2F2F2; }
+#main{ background: #fff; }
+/*header*/
+#header{ width: 100%;background:#FAFAFA;}
+#header .top{ width: 1200px; margin: 0 auto; }
+#header .top div.l{ height: 20px; padding: 5px 0; }
+#header .top div.l a{ color: #f00; }
+#header .top div.r{ width: 600px; padding: 5px 0;}
+#header .top div.r img{ width: 18px; height:20px; } 
+#header .top div.r dl dt,#header .top div.r dl dd{ float: left; margin-right: 18px; position: relative; }
+#header .top div.r dl dt img{ vertical-align:middle; position: absolute;left: -20px;}
+#header .top div.r dl dd em{ background:url(http://www.zhe9000.com/static/zhe_image/top_bg.png) no-repeat 0 0; vertical-align: middle; display: inline-block; width: 6px; height: 3px; margin-left: 6px; transition: .2s ease-in;}
+#header .top div.r dl dd:hover em{ transition: .2s ease-in; transform:rotate(180deg); -ms-transform:rotate(180deg); -moz-transform:rotate(180deg); -webkit-transform:rotate(180deg); -o-transform:rotate(180deg); }
+#header .top .l,#header .top .r{ width: 50%;}
+
+/*nav*/
+#nav{ background: #443E56; width: 100%; height: 60px; }
+#nav .navMain{ width: 1200px; height: 100%; margin: 0 auto; }
+#nav .navMain ul{ line-height: 60px; }
+#nav .navMain ul li{ float: left; width: 80px; margin-left: 20px; background: url(http://baoming.zhe9000.com/static/zhe_image/bm/nav.png) 0 7px no-repeat; }
+#nav .navMain ul li:hover{ background-color: #332d43; }
+#nav .navMain ul li.one{ background-color: #332d43; }
+#nav .navMain ul li.two{ background-position: -110px 7px; }
+#nav .navMain ul li.three{ background-position: -215px 7px; }
+#nav .navMain ul li.four{ background-position: -322px 7px; }
+#nav .navMain ul li a{ display: block; width: 80px; height: 47px; padding-top: 13px; font-size: 14px; font-weight: 400; color: #ffffff; text-align: center; text-decoration: none; }
+
+/*footer*/
+#footer{ width:100%;min-width: 1200px; font-size: 12px !important; text-align: center; margin: 0 auto; padding-bottom: 10px; overflow: hidden ; background: #fff; margin-top: 20px;}
+#footer .fTitleMain{ width: 1200px; margin: 0 auto; }
+#footer .fTitleMain .agree{ padding: 5px 0px 10px 0px; text-align: center;}
+#footer .fTitleMain .agree ul{ zoom:1; overflow: hidden; } 
+#footer .fTitleMain .agree ul li{ margin-top: 10px; display: inline; float: left; width: 198px; border-right: 1px dotted #CCC; }
+#footer .fTitleMain .agree ul li a{ color: #666; font: 12px/1.5 "Lucida Grande",tahoma,arial,\5b8b\4f53; display: block; padding-top: 5px; line-height: 18px; }
+#footer .fTitleMain .agree ul li strong{ font-weight: bold; }
+#footer .fTitleMain .agree ul li span{ display: block; color: #999; }
+#footer .fTitleMain .agree ul li.end{ border-right: none; }
+#footer .fTitleMain .agree ul li.end div{ margin-left: 50px; margin-top: 10px; }
+#footer .fTitleMain .agree ul li.end div img{ float: left; }
+#footer .fTitleMain .agree ul li.end div p{ margin-top: 20px; margin-left: 10px; float: left; font-size: 12px; }
+#footer .footTitle .fTitleMain .agree ul li.end div p span{ display: block; color: #999; }
+#footer .footMain{ font-size: 12px !important; border-top: 1px solid #e7e7e7; text-align: center; margin: 0 auto; padding-bottom: 10px; overflow: hidden; background: #FFF; width: 100%; }
+#footer .footMain>p{ color: #666; word-spacing: 5px; padding: 10px 0; }
+#footer .footMain>p a{ margin: 0 10px; }
+#footer .footMain>p a:hover{ text-decoration: underline; }
+#footer .safety{ width: 900px; height: 55px; margin: 0 auto; }
+#footer .safety ul{ overflow: hidden; zoom: 1; margin-left: 185px; }
+#footer .safety ul li{ margin-top: 5px; display: inline; float: left; width: 126px; height: 41px; margin-right: 10px; }
+#footer>span a img{ vertical-align:middle; }

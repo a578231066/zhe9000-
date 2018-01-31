@@ -1,0 +1,49 @@
+/*haeder*/
+#header{ width: 100%; height: 82px; background: #fff; }
+#header .area{ width: 1200px; height: 78px; margin:0 auto; position: relative; }
+#header .area a h1{ width: 230px; height: 60px; margin-top: 20px; overflow: hidden; float: left; background: url(http://www.zhe9000.com/data/upload/site/58b3f3fb4f87d.png) no-repeat 0 0; text-align: left; }
+#header .area span{ padding-top: 45px; font: 14px/33px 微软雅黑; }
+#header .area span.kefu a{ padding: 0 4px; left: -6px; position: relative; top: 8px; }
+
+/*nav*/
+#nav{ height: 40px; background: #000; text-align: right; min-width: 1200px; }
+#nav .area{ width: 1200px; height: 40px; clear: both; margin: 0 auto; }
+#nav .area span{ float: left;  }
+#nav .area span a{ display: inline-block; height: 40px; padding: 0 30px; color: #fff; text-decoration: none; font: 16px/40px "微软雅黑"; overflow: hidden; vertical-align: top; z-index: 999;}
+#nav .area span a:hover{ background: #ec1611; }
+#nav .area span a.one{ background: #ec1611; }
+
+/*contact*/
+#contact{ width: 1200px; height: 30px; margin: 0 auto; margin-top: 20px; }
+#contact ul{ float: left; width: 1190px; cursor: pointer; }
+#contact ul li{ width: 232px; float: left; margin-bottom: 6px; text-align: left; padding-left: 64px; }
+#contact ul li label{ float: left; margin-left: -64px; margin-bottom: 4px; line-height: 20px; }
+
+/*footer*/
+#footer .about{ width: 100%; height: 230px; border-top: 3px solid #E02F2F; background: #fff; margin-bottom: 15px; }
+#footer .about ul{ width: 790px; margin: 0 auto; }
+#footer .about ul li{ float: left; width: 150px; text-align: left; border-radius: 1px solid #e1e1e1; padding: 30px 0 0 40px; height: 200px; line-height: 24px; padding: 30px 0 0 40px; }
+#footer .about ul li>span{ display: block; font: 16px/30px "microsoft yahei"; }
+#footer .about ul li span,#footer .about ul li>a{ display: block; }
+#footer .about ul li>a:hover{ color: #c00; text-decoration:underline; }
+#footer .about ul li.lw{ border-right: 1px solid #E1E1E1; }
+#footer .about ul li.lw a{ height: 24px; width: 100px; overflow: hidden; text-overflow:ellipsis; white-space: ellipsis; }
+#footer .about ul li.lw1{ padding-left: 0; }
+#footer .about ul li.lw2{ width: 214px; }
+#footer .about ul li.lw2 span{ font: 16px/30px "微软雅黑";}
+#footer .about ul li.lw2 h2,h3,h4,h5,h6{ font-size: 12px; }
+#footer .about ul li.lw2 h3 a{ color: #c00; }
+#footer .about ul li.lw2 h4 input{ color: #e02f2f; height: 20px; line-height: 20px; width: 63px; padding-left: 5px; border: 1px solid #eaeaea;  }
+#footer .about ul li.lw2 h4 a{ display: inline-block; width: 22px; height: 20px; background: url(../images/tihuan/shangJiaSou.png) no-repeat; background-position: center; opacity: .6; filter: alpha(opacity=60); border:1px solid #ddd; border-left: none; vertical-align: top; padding-top: 2px; margin:1px 0 0 -4px;}
+#footer .about ul li.lw2 h6 .txt{ height: 25px; line-height: 25px; width: 98px; padding-left: 5px; border: 1px solid #eaeaea; vertical-align: middle; }
+#footer .about ul li.lw2 h6 .smt{ height: 25px; line-height: 25px; width: 42px; cursor: pointer; color: #666; border: 1px solid #eaeaea; vertical-align: middle; display: inline-block; background: #fafafa no-repeat; }
+#footer .foot{ height: 60px; line-height: 30px; background: #f2f2f2; padding: 10px 0 20px; border-top: 1px solid #000; margin-right: auto; margin-left: auto; text-align: center; }
+#footer .foot a img{ vertical-align: middle; margin: 0 auto; border: 1px solid #c3bfbe; margin-left: 20px;  idth: 70px; height: 26px;  }
+
+
+
+
+
+
+
+

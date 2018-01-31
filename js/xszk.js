@@ -1,0 +1,88 @@
+$(function(){
+	//选择主图效果
+	$("dd").click(function(){
+		$(this).addClass("one").siblings().removeClass();
+		var CC=$(this).children("a").children("img").attr("src");
+		$("dt").children("img").attr("src",CC);
+	});
+	//给input标签添加获得焦点样式
+	$("input").focus(function(){
+		$(this).css({"border":"2px solid #9ABCF3","box-sizing":"border-box"});
+	});
+	//input标签添加失去焦点样式
+	$("input").blur(function(){
+		$(this).css({"border":"1px solid #ccc","box-sizing":"border-box"});
+	});
+	//判断select是否选择了来决定是否锁定button
+	$(".refer").click(function(){
+		$(".b2b").fadeOut();
+		if($("#classify").val()==0){
+			$(".refer").attr("disabled",true);
+			alert("请选择所属分类！！！");
+			window.location.href='#classify';
+			$(".refer").addClass("forbidden");
+		}
+	});
+	$(".refer").click(function(){
+		$(".b2b").fadeOut();
+		if($("#classify2").val()==0){
+			$(".refer").attr("disabled",true);
+			alert("请选择专场分类！！！");
+			window.location.href='#classify2';
+			$(".refer").addClass("forbidden");
+		}
+	});
+	$("#classify2").change(function(){
+		if($("select").val()!=0){
+			$(".refer").removeAttr("disabled"); 
+			$(".refer").removeClass("forbidden");
+		}
+	});
+	$("#classify").change(function(){
+		if($("select").val()!=0){
+			$(".refer").removeAttr("disabled");
+			$(".refer").removeClass("forbidden");
+		}
+	});
+	$(".refer").mouseenter(function(){
+		$(".b2b").stop().fadeIn();
+		$(".b2b").stop().animate({
+		    left:'350px',
+		    top:"-60px",
+		    opacity:'1',
+		    height:'150px',
+		    width:'200px'
+  		});
+	});
+	$(".refer").mouseleave(function(){
+		$(".b2b").stop().animate({
+		    left:'550px',
+		    top:'-210px',
+		    rotate:'720deg',
+		    opacity:'1',
+		    height:'300px',
+		    width:'400px'
+  		});
+  		$(".b2b").fadeOut();
+	});
+	$(".kC input").focus(function(){
+		$(this).siblings("label").css({
+			color:'#333',
+		});
+		$(this).stop().animate({
+			width:'130px'
+		},200);
+
+	});
+	$(".kC input").blur(function(){
+		$(this).siblings("label").css({
+			color:'#aaa',
+		});
+		$(this).stop().animate({
+			width:'100px'
+		},300);
+	});
+	$(".zb").click(function(){
+		$("form").show();
+	});
+});
